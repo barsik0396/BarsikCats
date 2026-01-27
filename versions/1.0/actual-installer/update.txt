@@ -1,1 +1,8 @@
-мяу тут будет текст обновы
+1.0
+https://
+
+
+[Update]
+Version=1.0
+URL=https://
+
