@@ -18,6 +18,9 @@
         target = "https://github.com/barsik0396/BarsikCats/tree/main";
       } else if (page === "GITHUB_VERS" || page === "releases") {
         target = "https://github.com/barsik0396/BarsikCats/releases/";
+      // Добавил переход на reload_meow если нет ни ?r=1, ни ?page=...
+      } else {
+        target = "https://barsik0396.github.io/BarsikCats/reload_meow";
       }
 
       if (target) {
