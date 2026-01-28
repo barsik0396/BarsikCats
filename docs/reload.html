@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>BarsikCats Redirect</title>
+  <script>
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      const r = params.get("r");
+      const page = params.get("page");
+
+      let target = null;
+
+      if (r === "1") {
+        target = "https://barsik0396.github.io/BarsikCats";
+      } else if (page === "GITHUB") {
+        target = "https://github.com/barsik0396/BarsikCats/tree/main";
+      } else if (page === "GITHUB_VERS" || page === "releases") {
+        target = "https://github.com/barsik0396/BarsikCats/releases/";
+      }
+
+      if (target) {
+        window.location.replace(target);
+      } else {
+        document.body.innerHTML = "<h1>🐾 BarsikCats: неизвестный параметр</h1><p>Проверь ссылку или добавь ?r=1 / ?page=GITHUB</p>";
+      }
+    })();
+  </script>
+</head>
+<body>
+  <noscript>
+    <h1>🐾 BarsikCats: требуется JavaScript</h1>
+    <p>Для перехода по параметрам включи JS</p>
+  </noscript>
+</body>
+</html>
