@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>BarsikCats: ошибка маршрута</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #111;
+      color: #eee;
+      font-family: 'Courier New', monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    img {
+      max-width: 300px;
+      margin-top: 20px;
+    }
+    .error {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    .hint {
+      font-size: 1em;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="error">🐾 Ошибка маршрута: параметр не указан</div>
+  <div class="hint">Добавь <code>?r=1</code> или <code>?page=GITHUB</code> в URL</div>
+  <img src="cat_error.png" alt="BarsikCat Error">
+</body>
+</html>
