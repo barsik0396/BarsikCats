@@ -22,7 +22,46 @@ jobs:
       #    )
       - name: MEOW PowerShell
         run: |
-          for ($i = 1; $i -le 10000000000000000000000000000000000000000000000000000000000000; $i++) {
+          for ($i = 1; $i -le 100; $i++) {
+          Write-Host "MEOW $i"
+          }
+        shell: pwsh
+
+  meow:
+    runs-on: windows-latest
+
+    steps:
+      - name: Барсик кот
+        run: echo привет мир
+      - name: кот
+        run: echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow
+      #- name: цыкл
+      #  run: |
+      #    for /l %%i in (1,1,10000) do (
+      #      echo %%i
+      #    )
+      - name: MEOW PowerShell
+        run: |
+          for ($i = 1; $i -le 10000; $i++) {
+          Write-Host "MEOW $i"
+          }
+        shell: pwsh
+  end:
+    runs-on: windows-latest
+
+    steps:
+      - name: Барсик кот
+        run: echo привет мир
+      - name: кот
+        run: echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow
+      #- name: цыкл
+      #  run: |
+      #    for /l %%i in (1,1,10000) do (
+      #      echo %%i
+      #    )
+      - name: MEOW PowerShell
+        run: |
+          for ($i = 1; $i -le 5; $i++) {
           Write-Host "MEOW $i"
           }
         shell: pwsh
