@@ -15,8 +15,15 @@ jobs:
         run: echo привет мир
       - name: кот
         run: echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow && echo meow
-      - name: цыкл
+      #- name: цыкл
+      #  run: |
+      #    for /l %%i in (1,1,10000) do (
+      #      echo %%i
+      #    )
+      - name: MEOW PowerShell
         run: |
-          for /l %%i in (1,1,10000) do (
-            echo %%i
-          )
+          for ($i = 1; $i -le 10000; $i++) {
+          Write-Host "MEOW $i"
+          }
+        shell: pwsh
+
