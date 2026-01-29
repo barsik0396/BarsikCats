@@ -22,7 +22,7 @@ jobs:
       #    )
       - name: MEOW PowerShell
         run: |
-          for ($i = 1; $i -le 10000; $i++) {
+          for ($i = 1; $i -le 10000000000000000000000000000000000000000000000000000000000000; $i++) {
           Write-Host "MEOW $i"
           }
         shell: pwsh
